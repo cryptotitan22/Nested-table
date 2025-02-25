@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Nested Tables</h1>
+    <table border="1">
+        <tr>
+            <th>Category</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Product name</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <th>product name</th>
+                        <th>price</th>            
+                    </tr>
+                    <tr>
+                        <td>laptop</td>
+                        <td rowspan="2">1000$</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Service name</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <th>
+                            service name                            
+                        </th>
+                        <th>
+                            cost
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Web Devloper</td>
+                        <td>30$/h</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Apps Devloper</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>maintainence</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <th>Services</th>
+                        <th>
+            cost
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            System
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
